@@ -1,91 +1,29 @@
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 1rem;
-    background: #111D4A;
-    color: #F0F0F0;
+
 }
 
-/* 
-font-family: 'Blinker', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; 
-*/
+.card {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
 
-/* ===============
-   Typography
-   ===============
-*/
-
-h1,
-.read-more,
-strong {
+.card-title,
+.card-read-time,
+.card-btn {
     font-family: 'Blinker', sans-serif;
-    font-weight: 700;
+}
+
+.card-title {
+    color: #05cbe9;
     font-size: 1.75rem;
 }
- 
-h1 {
-    color: #05CBE9;
+
+.card-body {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.read-more {
-    text-decoration: none;
-    color: #111D4A;
+.card-btn {
     font-size: 1.25rem;
-}
-
-.content {
-    line-height: 1.5;
-}
-
-button {
-    background: #05CBE9;
-    padding: .5em 2em;
-    border: 0;
-    align-self: flex-end;
-    margin-bottom: 1em;
-    margin-left: 1em;
-}
-
-/* ===============
-   layout
-   ===============
-*/
-
-.container {
-    max-width: 80%;
-    /* width: 250px; */
-    margin: 1em auto;
-}
-
-.container-flex {
-    display: flex;
-    flex-direction: column;
-}
-
-.container-read-more {
-    display: flex;
-    justify-content: space-between;
-}
-
-.image-flex {
-    max-height: 200px;
-    object-fit: cover;
-}
-
-/* ==============
-   queries
-   ==============
-*/
-
-@media (min-width: 500px) {
-    
 }
